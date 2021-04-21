@@ -10,7 +10,7 @@ class Subject extends Component {
             href="/"
             onClick={(e) => {
               e.preventDefault();
-              console.log("click함");
+              this.props.onChangePage();
             }}
           >
             {this.props.title}
